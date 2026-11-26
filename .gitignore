@@ -1,0 +1,30 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+Snowflake.txt
+/zomato/profiles.yml
+.qodo/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.parquet
+
+# Local datasets and runtime output
+/data/
+/logs/
+**/logs/
+
+# Airflow local state
+/airflow/airflow.cfg
+/airflow/airflow.db
+
+# dbt generated output
+**/target/
+**/dbt_packages/
